@@ -173,7 +173,7 @@ width: 700px;
     letter-spacing: 0.06em;
 
     color: #FFFFFF;
-    background: #2196F3;
+    background-color: #2196F3;
     cursor: pointer;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
@@ -188,7 +188,7 @@ width: 700px;
 
 .hero-btn:hover,
 .hero-btn:focus {
-    background-color: transparent;
+    background: #188CE8;
 }
 
 .points-section {
@@ -200,13 +200,13 @@ width: 700px;
 .points-icon {
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 270px;
     height: 120px;
     margin-bottom: 30px;
     background-color: #F5F4FA;
         border-radius: 4px;
-        padding-top: 25px;
-        padding-bottom: 25px;
+       
 
 }
 .list-title {
@@ -300,6 +300,7 @@ width: 700px;
     justify-content: center;
     align-items: center;
     gap: 10px;
+    margin-top: 16px;
 }
 .socials-icon {
     
@@ -318,8 +319,8 @@ width: 700px;
         border-radius: 50%;
         outline: 2px solid #f40606;
         background-color: #FFFFFF;
-        margin-top: 16px;
-        margin-bottom: 30px;
+        
+    
         color: #AFB1B8;
     
 }
@@ -370,11 +371,11 @@ color: #FFFFFF;
 .card-item {
     width: 370px;
     background: #FFFFFF;
-    
+    border: 1px solid #EEEEEE;
 }
 .card-item:hover , 
 .card-item:focus {
-    border: 1px solid #EEEEEE;
+    
         box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .card-title {
@@ -451,7 +452,7 @@ color: #FFFFFF;
 .footer-container {
     display: flex;
     align-items: center;
-    gap: 156px;
+    gap: 70px;
 }
 .footer-title {
     
@@ -492,12 +493,12 @@ color: #FFFFFF;
 .client-link {
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 170px;
     height: 92px;
     border: 1px solid currentColor;
     border-radius: 4px;
-    padding-top: 16px;
-    padding-bottom: 16px;
+    
     color: #AFB1B8;
 }
 .client-icon {
